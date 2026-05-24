@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "28294093"))
-API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
+API_ID = int(getenv("API_ID", "33674756"))
+API_HASH = getenv("API_HASH", "68769ec09ed5712e247f5194c6bf907e")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", )
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/GOD-FATHER-papa/GOD-MUSIC",
+    "https://github.com/kumarprakash28246-source/GOD-MUSIC.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
 API_KEY = getenv("API_KEY", "12YXA2XACCB1AXBA")
 API_BASE_URL = getenv("API_BASE_URL", "http://riyabots.site")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/heavencity666")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/lll_RONEY_THE_BRAND_lll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+AMnuH-giElw2N2M9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+AMnuH-giElw2N2M9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
